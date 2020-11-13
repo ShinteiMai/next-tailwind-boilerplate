@@ -1,15 +1,15 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Counter from "../components/Counter";
+import Layout from "../components/Layout";
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
+  <Layout title="Home | next-tailwind-boilerplate">
+    <h1 className="text-5xl">next-tailwind-boilerplate</h1>
     <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
+      Tailwind CSS + Next.js + TypeScript boilerplate for initializing
+      production quality sites
     </p>
+    <Counter />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
