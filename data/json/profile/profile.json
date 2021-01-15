@@ -1,0 +1,59 @@
+{
+  "name": "Steven Hansel",
+  "biography": {
+    "short": "a passionate software engineer building robust web & mobile applications. Interested in TypeScript, React, NestJS & GraphQL",
+    "long": []
+  },
+  "profilePicture": "https://stevenhansel.s3-ap-southeast-1.amazonaws.com/profile.png",
+  "social": {
+    "github": "https://github.com/ShinteiMai",
+    "dribbbble": "https://dribbble.com/shinteimai",
+    "linkedin": "https://www.linkedin.com/in/stevenhansel/"
+  },
+  "links": {
+    "binus": "https://binus.ac.id",
+    "kotakode": "https://kotakode.com"
+  },
+  "resume": "https://stevenhansel.s3-ap-southeast-1.amazonaws.com/resume.pdf",
+  "experience": [
+    {
+      "role": "Fullstack Developer Intern",
+      "company": "Kotakode",
+      "link": "https://kotakode.com",
+      "time": {
+        "start": "Aug 2020",
+        "end": "Present"
+      },
+      "technologies": [0, 1, 4, 5],
+      "points": [
+        "Integrated Github OAuth Flow into Kotakode's existing authentication system",
+        "Built a mentioning feature that is integrated into the notification feature where users are able to mention each other through questions, answers, comments, and blogs",
+        "Implemented TDD in the scope of unit testing to E2E testing with Cypress"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "React Pokédex",
+      "src": "https://stevenhansel.s3-ap-southeast-1.amazonaws.com/react-pokedex.mp4",
+      "technologies": [0, 1, 6],
+      "description": "a simple & modern pokédex to look up at pokémons. View your favorite pokemon status & information with elegant & fashion. The data of the pokemons was fetched from PokéAPI, which is an open-source public API that serves pokemons data, please support them! .",
+      "links": {
+        "github": "https://github.com/ShinteiMai/react-pokedex",
+        "external": "https://pokedex.stevenhansel.com",
+        "dribbble": ""
+      }
+    },
+    {
+      "title": "Portfolio",
+      "src": "https://stevenhansel.s3-ap-southeast-1.amazonaws.com/stevenhansel.mp4",
+      "technologies": [0, 1, 6],
+      "description": "personal portfolio site made with Next.js, it consists of my biography, experience, contacts, and also the projects that i have made either on solo or team projects. The design is based on my favorite color!",
+      "links": {
+        "github": "https://github.com/ShinteiMai/stevenhansel.com",
+        "external": "https://stevenhansel.com",
+        "dribbble": ""
+      }
+    }
+  ]
+}
