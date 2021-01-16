@@ -1,9 +1,8 @@
 import React from "react";
 import App from "next/app";
-import "../index.css";
 import Layout from "../components/UI/Layout";
-import { capitalize } from "../utils/capitalize";
 import { AnimatePresence, motion, Transition } from "framer-motion";
+import "../index.css";
 
 class MyApp extends App {
   render() {
@@ -19,11 +18,6 @@ class MyApp extends App {
       <>
         <Layout>
           <div className="relative">
-            <h2 className="text-5xl font-medium hidden lg:block text-accents-2">
-              {this.props.router.pathname.slice(1) === ""
-                ? "About"
-                : capitalize(this.props.router.pathname.slice(1))}
-            </h2>
             <AnimatePresence>
               <div>
                 <motion.div
@@ -40,7 +34,7 @@ class MyApp extends App {
             </AnimatePresence>
           </div>
         </Layout>
-
+        
         <style jsx global>
           {`
             html {
