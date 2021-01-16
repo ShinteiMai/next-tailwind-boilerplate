@@ -7,6 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: bahmutov/npm-install@v1
+
+      - name: Lint the codebase
+        run: npm run lint
+
+      - name: Deploy to vercel 
       - uses: amondnet/vercel-action@v20
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
