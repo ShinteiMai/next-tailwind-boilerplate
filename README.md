@@ -1,3 +1,3 @@
-# stevenhansel.com
+# next-tailwind-boilerplate
 
-my personal site containing my biography, projects, and a personal blog.
+boilerplate for next-tailwind config
