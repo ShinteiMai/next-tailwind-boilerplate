@@ -7,5 +7,6 @@ module.exports = {
     "@components/(.*)$": "<rootDir>/components/$1",
     "@utils/(.*)$": "<rootDir>/utils/$1",
     "@data/(.*)$": "<rootDir>/data/$1",
+    "@api/(.*)$": "<rootDir>/api/$1",
   },
 };
